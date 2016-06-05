@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		87551FFD1D0475B20088B7AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 87551FFC1D0475B20088B7AC /* main.m */; };
+		875520001D0475B20088B7AC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 87551FFF1D0475B20088B7AC /* AppDelegate.m */; };
+		875520031D0475B20088B7AC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 875520021D0475B20088B7AC /* ViewController.m */; };
+		875520061D0475B20088B7AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 875520041D0475B20088B7AC /* Main.storyboard */; };
+		875520081D0475B20088B7AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 875520071D0475B20088B7AC /* Assets.xcassets */; };
+		8755200B1D0475B20088B7AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 875520091D0475B20088B7AC /* LaunchScreen.storyboard */; };
+		875520161D0475B20088B7AC /* APP________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 875520151D0475B20088B7AC /* APP________Tests.m */; };
+		875520211D0475B20088B7AC /* APP________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 875520201D0475B20088B7AC /* APP________UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		875520121D0475B20088B7AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87551FF01D0475B20088B7AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87551FF71D0475B20088B7AC;
+			remoteInfo = "APP启动加载广告页面";
+		};
+		8755201D1D0475B20088B7AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87551FF01D0475B20088B7AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87551FF71D0475B20088B7AC;
+			remoteInfo = "APP启动加载广告页面";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		87551FF81D0475B20088B7AC /* APP启动加载广告页面.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "APP启动加载广告页面.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		87551FFC1D0475B20088B7AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		87551FFE1D0475B20088B7AC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		87551FFF1D0475B20088B7AC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		875520011D0475B20088B7AC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		875520021D0475B20088B7AC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		875520051D0475B20088B7AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		875520071D0475B20088B7AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8755200A1D0475B20088B7AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8755200C1D0475B20088B7AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		875520111D0475B20088B7AC /* APP启动加载广告页面Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "APP启动加载广告页面Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		875520151D0475B20088B7AC /* APP________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "APP________Tests.m"; sourceTree = "<group>"; };
+		875520171D0475B20088B7AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8755201C1D0475B20088B7AC /* APP启动加载广告页面UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "APP启动加载广告页面UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		875520201D0475B20088B7AC /* APP________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "APP________UITests.m"; sourceTree = "<group>"; };
+		875520221D0475B20088B7AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		87551FF51D0475B20088B7AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8755200E1D0475B20088B7AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		875520191D0475B20088B7AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		87551FEF1D0475B20088B7AC = {
+			isa = PBXGroup;
+			children = (
+				87551FFA1D0475B20088B7AC /* APP启动加载广告页面 */,
+				875520141D0475B20088B7AC /* APP启动加载广告页面Tests */,
+				8755201F1D0475B20088B7AC /* APP启动加载广告页面UITests */,
+				87551FF91D0475B20088B7AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		87551FF91D0475B20088B7AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87551FF81D0475B20088B7AC /* APP启动加载广告页面.app */,
+				875520111D0475B20088B7AC /* APP启动加载广告页面Tests.xctest */,
+				8755201C1D0475B20088B7AC /* APP启动加载广告页面UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		87551FFA1D0475B20088B7AC /* APP启动加载广告页面 */ = {
+			isa = PBXGroup;
+			children = (
+				87551FFE1D0475B20088B7AC /* AppDelegate.h */,
+				87551FFF1D0475B20088B7AC /* AppDelegate.m */,
+				875520011D0475B20088B7AC /* ViewController.h */,
+				875520021D0475B20088B7AC /* ViewController.m */,
+				875520041D0475B20088B7AC /* Main.storyboard */,
+				875520071D0475B20088B7AC /* Assets.xcassets */,
+				875520091D0475B20088B7AC /* LaunchScreen.storyboard */,
+				8755200C1D0475B20088B7AC /* Info.plist */,
+				87551FFB1D0475B20088B7AC /* Supporting Files */,
+			);
+			path = "APP启动加载广告页面";
+			sourceTree = "<group>";
+		};
+		87551FFB1D0475B20088B7AC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				87551FFC1D0475B20088B7AC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		875520141D0475B20088B7AC /* APP启动加载广告页面Tests */ = {
+			isa = PBXGroup;
+			children = (
+				875520151D0475B20088B7AC /* APP________Tests.m */,
+				875520171D0475B20088B7AC /* Info.plist */,
+			);
+			path = "APP启动加载广告页面Tests";
+			sourceTree = "<group>";
+		};
+		8755201F1D0475B20088B7AC /* APP启动加载广告页面UITests */ = {
+			isa = PBXGroup;
+			children = (
+				875520201D0475B20088B7AC /* APP________UITests.m */,
+				875520221D0475B20088B7AC /* Info.plist */,
+			);
+			path = "APP启动加载广告页面UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		87551FF71D0475B20088B7AC /* APP启动加载广告页面 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 875520251D0475B20088B7AC /* Build configuration list for PBXNativeTarget "APP启动加载广告页面" */;
+			buildPhases = (
+				87551FF41D0475B20088B7AC /* Sources */,
+				87551FF51D0475B20088B7AC /* Frameworks */,
+				87551FF61D0475B20088B7AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "APP启动加载广告页面";
+			productName = "APP启动加载广告页面";
+			productReference = 87551FF81D0475B20088B7AC /* APP启动加载广告页面.app */;
+			productType = "com.apple.product-type.application";
+		};
+		875520101D0475B20088B7AC /* APP启动加载广告页面Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 875520281D0475B20088B7AC /* Build configuration list for PBXNativeTarget "APP启动加载广告页面Tests" */;
+			buildPhases = (
+				8755200D1D0475B20088B7AC /* Sources */,
+				8755200E1D0475B20088B7AC /* Frameworks */,
+				8755200F1D0475B20088B7AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				875520131D0475B20088B7AC /* PBXTargetDependency */,
+			);
+			name = "APP启动加载广告页面Tests";
+			productName = "APP启动加载广告页面Tests";
+			productReference = 875520111D0475B20088B7AC /* APP启动加载广告页面Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8755201B1D0475B20088B7AC /* APP启动加载广告页面UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8755202B1D0475B20088B7AC /* Build configuration list for PBXNativeTarget "APP启动加载广告页面UITests" */;
+			buildPhases = (
+				875520181D0475B20088B7AC /* Sources */,
+				875520191D0475B20088B7AC /* Frameworks */,
+				8755201A1D0475B20088B7AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8755201E1D0475B20088B7AC /* PBXTargetDependency */,
+			);
+			name = "APP启动加载广告页面UITests";
+			productName = "APP启动加载广告页面UITests";
+			productReference = 8755201C1D0475B20088B7AC /* APP启动加载广告页面UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		87551FF01D0475B20088B7AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = fhc;
+				TargetAttributes = {
+					87551FF71D0475B20088B7AC = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = B3ANQHR3G9;
+					};
+					875520101D0475B20088B7AC = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = B3ANQHR3G9;
+						TestTargetID = 87551FF71D0475B20088B7AC;
+					};
+					8755201B1D0475B20088B7AC = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = B3ANQHR3G9;
+						TestTargetID = 87551FF71D0475B20088B7AC;
+					};
+				};
+			};
+			buildConfigurationList = 87551FF31D0475B20088B7AC /* Build configuration list for PBXProject "APP启动加载广告页面" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 87551FEF1D0475B20088B7AC;
+			productRefGroup = 87551FF91D0475B20088B7AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				87551FF71D0475B20088B7AC /* APP启动加载广告页面 */,
+				875520101D0475B20088B7AC /* APP启动加载广告页面Tests */,
+				8755201B1D0475B20088B7AC /* APP启动加载广告页面UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		87551FF61D0475B20088B7AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8755200B1D0475B20088B7AC /* LaunchScreen.storyboard in Resources */,
+				875520081D0475B20088B7AC /* Assets.xcassets in Resources */,
+				875520061D0475B20088B7AC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8755200F1D0475B20088B7AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8755201A1D0475B20088B7AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		87551FF41D0475B20088B7AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				875520031D0475B20088B7AC /* ViewController.m in Sources */,
+				875520001D0475B20088B7AC /* AppDelegate.m in Sources */,
+				87551FFD1D0475B20088B7AC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8755200D1D0475B20088B7AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				875520161D0475B20088B7AC /* APP________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		875520181D0475B20088B7AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				875520211D0475B20088B7AC /* APP________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		875520131D0475B20088B7AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87551FF71D0475B20088B7AC /* APP启动加载广告页面 */;
+			targetProxy = 875520121D0475B20088B7AC /* PBXContainerItemProxy */;
+		};
+		8755201E1D0475B20088B7AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87551FF71D0475B20088B7AC /* APP启动加载广告页面 */;
+			targetProxy = 8755201D1D0475B20088B7AC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		875520041D0475B20088B7AC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				875520051D0475B20088B7AC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		875520091D0475B20088B7AC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8755200A1D0475B20088B7AC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		875520231D0475B20088B7AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		875520241D0475B20088B7AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		875520261D0475B20088B7AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "APP启动加载广告页面/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fhc.APP--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		875520271D0475B20088B7AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "APP启动加载广告页面/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fhc.APP--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		875520291D0475B20088B7AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "APP启动加载广告页面Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fhc.APP--------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/APP启动加载广告页面.app/APP启动加载广告页面";
+			};
+			name = Debug;
+		};
+		8755202A1D0475B20088B7AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "APP启动加载广告页面Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fhc.APP--------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/APP启动加载广告页面.app/APP启动加载广告页面";
+			};
+			name = Release;
+		};
+		8755202C1D0475B20088B7AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "APP启动加载广告页面UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fhc.APP--------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "APP启动加载广告页面";
+			};
+			name = Debug;
+		};
+		8755202D1D0475B20088B7AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "APP启动加载广告页面UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fhc.APP--------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "APP启动加载广告页面";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		87551FF31D0475B20088B7AC /* Build configuration list for PBXProject "APP启动加载广告页面" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				875520231D0475B20088B7AC /* Debug */,
+				875520241D0475B20088B7AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		875520251D0475B20088B7AC /* Build configuration list for PBXNativeTarget "APP启动加载广告页面" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				875520261D0475B20088B7AC /* Debug */,
+				875520271D0475B20088B7AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		875520281D0475B20088B7AC /* Build configuration list for PBXNativeTarget "APP启动加载广告页面Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				875520291D0475B20088B7AC /* Debug */,
+				8755202A1D0475B20088B7AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8755202B1D0475B20088B7AC /* Build configuration list for PBXNativeTarget "APP启动加载广告页面UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8755202C1D0475B20088B7AC /* Debug */,
+				8755202D1D0475B20088B7AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 87551FF01D0475B20088B7AC /* Project object */;
+}
